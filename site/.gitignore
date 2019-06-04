@@ -5,6 +5,7 @@ web/app/mu-plugins/*/
 web/app/upgrade
 web/app/uploads/*
 !web/app/uploads/.gitkeep
+**/.DS_Store
 
 # WordPress
 web/wp
@@ -20,3 +21,5 @@ web/.htaccess
 
 # WP-CLI
 wp-cli.local.yml
+web/app/themes/vigor2019/.editorconfig
+web/app/themes/vigor2019/sftp-config.json
