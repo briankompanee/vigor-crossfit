@@ -1,0 +1,55 @@
+.slideshow-block {
+  position: relative;
+
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin: 0 10px;
+  }
+
+  .carousel-header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 8%;
+    text-align: center;
+
+    h2 {
+      color: $white;
+    }
+
+    p {
+      color: $white;
+      font-size: 18pt;
+    }
+  }
+
+  .carousel-caption {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    h5 {
+      color: $white;
+    }
+
+    a {
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+  }
+
+  .carousel-control-next-icon {
+    background: url(../images/icn_arrow_big_L_Default.svg) no-repeat 50% / 100% 100%;
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    width: 50px;
+    height: 50px;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url(../images/icn_arrow_big_L_Default.svg);
+    width: 50px;
+    height: 50px;
+  }
+}

@@ -1,0 +1,47 @@
+footer {
+  background: $black;
+  padding: 8rem 0;
+
+  .widget {
+    @extend .col-md;
+    @extend .align-self-start;
+
+    color: $gray;
+
+    &:first-child {
+      @extend .align-self-center;
+    }
+
+    h3 {
+      color: $white;
+      font-size: 14pt;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+
+    .textwidget {
+      p {
+        margin-bottom: 1.2em;
+      }
+    }
+
+    .menu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      .menu-item {
+        margin-bottom: 1.2em;
+
+        a {
+          text-transform: uppercase;
+          color: $gray;
+
+          &:hover {
+            color: $yellow;
+          }
+        }
+      }
+    }
+  }
+}

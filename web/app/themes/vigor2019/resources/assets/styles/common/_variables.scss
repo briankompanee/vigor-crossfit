@@ -1,0 +1,40 @@
+/** Import Bootstrap functions */
+@import "~bootstrap/scss/functions";
+
+/** Colors **/
+$yellow: 			#ffd100;
+$orange: 			#ff7b00;
+$red:	 				#b61200;
+$gray:				#757575;
+$light-gray: 	#eaeaea;
+$black:				#000;
+
+$theme-colors: (
+  primary: 	$yellow,
+  warning: 	$orange,
+  danger: 	$red
+);
+
+$colors: (
+  gray:		$gray,
+);
+
+/** Bootstrap navbar fix (https://git.io/fADqW) */
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;
+
+/** Typography **/
+$font-family-sans-serif: "IBM Plex Sans", sans-serif;
+$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: 700;
+$headings-color: black;
+
+$font-size-root: 20pt;
+
+$link-hover-decoration: none;
+
+/** Components **/
+$jumbotron-bg: transparent;
+
+/** Buttons **/
+$input-btn-border-width: 2px;
