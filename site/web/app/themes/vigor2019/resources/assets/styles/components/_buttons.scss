@@ -1,0 +1,44 @@
+.btn {
+  color: $white;
+  font-size: 12pt;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0.5em;
+  padding: 1em 3em;
+  border-radius: 0;
+}
+
+.button-slanted {
+  -ms-transform: skewX(-10deg);
+  -webkit-transform: skewX(-10deg);
+  transform: skewX(-10deg);
+}
+
+.button-slanted-content {
+  -ms-transform: skewX(10deg);
+  -webkit-transform: skewX(10deg);
+  transform: skewX(10deg);
+  display: inline-block;
+}
+
+.solid_bg_yellow {
+  background: $yellow;
+  color: $black;
+
+  &:hover {
+    background: $black;
+    color: $yellow;
+  }
+}
+
+.trans_bg_border_yellow {
+  background: transparent;
+  color: $yellow;
+  border: 2px solid $yellow;
+
+  &:hover {
+    color: $white;
+    border-color: $white;
+  }
+}

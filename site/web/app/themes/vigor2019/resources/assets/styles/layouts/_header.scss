@@ -1,0 +1,77 @@
+//GLOBAL: Banner, Logo
+.banner {
+  .logo {
+    max-width: 138px;
+  }
+
+  button.navbar-toggler {
+    color: $white;
+    font-size: 22pt;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+//GLOBAL: Primary Menu
+#primaryNav {
+  background-color: transparent;
+  padding: 0 5em 2em;
+
+  &.active {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0 5em 0.5em;
+
+    .brand {
+      .logo {
+        width: 80px;
+      }
+    }
+  }
+
+  .nav {
+    li {
+      @extend .nav-item;
+
+      text-transform: uppercase;
+
+      &.active {
+        color: $white;
+        border-bottom: 1px solid $white;
+      }
+    }
+  }
+}
+
+.banner .nav a {
+  @extend .nav-link;
+
+  border-bottom: 1px solid transparent;
+  color: $white;
+
+  &:hover,
+  &:active {
+    border-bottom: 1px solid $white;
+  }
+}
+
+//CONTENT: Hero Block
+.hero-content {
+  padding: 10% 0;
+
+  .hero-title {
+    color: $yellow;
+    font-size: 90pt;
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 85pt;
+    margin-bottom: 0.5em;
+  }
+
+  .hero-text {
+    color: $white;
+    font-size: 20pt;
+    margin-bottom: 0.5em;
+  }
+}
