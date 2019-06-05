@@ -32,26 +32,36 @@
       "url": "https://wpackagist.org"
     },
     {
+      "type":"vcs",
+      "url":"https://github.com/junaidbhura/composer-wp-pro-plugins"
+    },
+    {
       "type": "package",
       "package": {
-        "name": "advanced-custom-fields/advanced-custom-fields-pro",
+        "name": "junaidbhura/advanced-custom-fields-pro",
         "version": "5.8.0",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
-          "url": "http://connect.advancedcustomfields.com/index.php?p=pro&a=download&k=LICENSEKEY"
+          "url": "https://www.advancedcustomfields.com"
+        },
+        "require": {
+            "junaidbhura/composer-wp-pro-plugins": "*"
         }
       }
     },
     {
       "type": "package",
       "package": {
-        "name": "gravityforms/gravityforms",
+        "name": "junaidbhura/gravityforms",
         "version": "2.4.9.2",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
-          "url": "http://s3.amazonaws.com/gravityforms/releases/gravityforms_1.9.14.25.zip?AWSAccessKeyId=ACCESSKEY&Expires=EXPIREDATE&Signature=SIGNATURE"
+          "url": "https://www.gravityforms.com"
+        },
+        "require": {
+          "junaidbhura/composer-wp-pro-plugins": "*"
         }
       }
     }
@@ -67,8 +77,8 @@
     "wpackagist-plugin/classic-editor":"1.5",
     "wpackagist-plugin/wp-smushit":"3.2.0.1",
     "wpackagist-plugin/woocommerce":"3.6.3",
-    "advanced-custom-fields/advanced-custom-fields-pro": "5.8.0",
-    "gravityforms/gravityforms": "2.4.9.2"
+    "junaidbhura/advanced-custom-fields-pro": "*",
+    "junaidbhura/gravityforms": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",
